@@ -95,10 +95,8 @@ def winner(board)
   end
 end
 
-def play(board)
-  until over?(board)
-    turn(board)
-  end
+
+#play method goes here
 
   if won?(board)
     puts "Congratulations #{winner(board)}!"
